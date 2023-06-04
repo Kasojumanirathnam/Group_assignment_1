@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!-- Structure schemas -->
+    <pma:structure_schemas>
+        <pma:database name="inflatable_innovative_toys" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="categories">
+                CREATE TABLE `categories` (
+                  `category_id` int(11) NOT NULL AUTO_INCREMENT,
+                  `category_name` varchar(255) NOT NULL,
+                  `status` tinyint(4) NOT NULL DEFAULT 1,
+                  PRIMARY KEY (`category_id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!-- Database: 'inflatable_innovative_toys' -->
+    <database name="inflatable_innovative_toys">
+        <!-- Table categories -->
+        <table name="categories">
+            <column name="category_id">1</column>
+            <column name="category_name">cars toys</column>
+            <column name="status">1</column>
+        </table>
+        <table name="categories">
+            <column name="category_id">2</column>
+            <column name="category_name">bike toys</column>
+            <column name="status">1</column>
+        </table>
+        <table name="categories">
+            <column name="category_id">3</column>
+            <column name="category_name">spiderman toys</column>
+            <column name="status">1</column>
+        </table>
+        <table name="categories">
+            <column name="category_id">4</column>
+            <column name="category_name">Puzzle toys</column>
+            <column name="status">0</column>
+        </table>
+        <table name="categories">
+            <column name="category_id">5</column>
+            <column name="category_name">colour toys</column>
+            <column name="status">1</column>
+        </table>
+    </database>
+</pma_xml_export>
