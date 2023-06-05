@@ -1,0 +1,4 @@
+customer_id,customer_name,address,city,state,country,pincode,phone,email,website,status,created_date_time
+1,Mani,Manikonda,Hyderabad,TS,India,500089,7995991234,Mani@gmail.com,mani.com,1,04-06-2023 13:58
+2,Rathnam,Yousufguda,Hyderabad,TS,INDIA,500090,9573264401,Rathnam@gmail.com,rathnam.com,1,04-06-2023 13:59
+3,Bharath,Krishna nagar,Hyderabad,TS,India,500091,9908641512,,,1,04-06-2023 13:59
